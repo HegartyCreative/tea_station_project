@@ -14,9 +14,324 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <h1>tea station</h1>
-    <!-- YOUR CODE GOES HERE -->
+    <!-- NAV bar -->
+    <span class="nav_btn" id="nav_btn"> <i class="fas fa-bars"></i> </span>
+    <nav class="nav_bar" id="nav_bar">
+      <div class="nav_bar_header">
+        <span class="nav_close" id="nav_close">
+          <i class="fas fa-times"></i>
+        </span>
+      </div>
+      <ul class="nav_items">
+        <li><a href="index.html" class="nav_link">Home</a></li>
+        <li><a href="skills.html" class="nav_link">Skills</a></li>
+        <li><a href="about.html" class="nav_link">About</a></li>
+        <li><a href="products.html" class="nav_link">Products</a></li>
+      </ul>
+    </nav>
 
+    <!-- end of NAV bar -->
+
+    <!-- Start of header -->
+    <header class="header">
+      <div class="banner">
+        <h2>Over one hundred flavours</h2>
+        <h1>
+          Specially<br />
+          Crafted Tea
+        </h1>
+        <a href="skills.html" class="btn banner-btn">Explore more</a>
+      </div>
+    </header>
+    <!-- End of header -->
+    <div class="content_divider"></div>
+    <!-- Start of skills -->
+    <section class="skills clearfix">
+      <!-- Start of skill1 -->
+      <article class="skill">
+        <span class="skill_icon"> <i class="fas fa-mug-hot"></i> </span>
+        <h4 class="skill_title">Made in US</h4>
+        <p class="skill_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi
+          eos placeat laudantium sequi pariatur.
+        </p>
+      </article>
+      <!-- End of skill1 -->
+      <!-- Start of skill2 -->
+      <article class="skill">
+        <span class="skill_icon"> <i class="fas fa-glass-cheers"></i> </span>
+        <h4 class="skill_title">Relaxation</h4>
+        <p class="skill_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi
+          eos placeat laudantium sequi pariatur.
+        </p>
+      </article>
+      <!-- End of skill2 -->
+      <!-- Start of skill3 -->
+      <article class="skill">
+        <span class="skill_icon"> <i class="fas fa-bomb"></i> </span>
+        <h4 class="skill_title">Energy</h4>
+        <p class="skill_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi
+          eos placeat laudantium sequi pariatur.
+        </p>
+      </article>
+      <!-- End of skill4 -->
+      <!-- Start of skill1 -->
+      <article class="skill">
+        <span class="skill_icon"> <i class="fas fa-mortar-pestle"></i> </span>
+        <h4 class="skill_title">Family recipe</h4>
+        <p class="skill_text">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis modi
+          eos placeat laudantium sequi pariatur.
+        </p>
+      </article>
+      <!-- End of skill4 -->
+    </section>
+    <!-- End of skills -->
+    <!-- Start of About -->
+    <section>
+      <div class="section_center clearfix">
+        <!-- About image -->
+        <article class="about_image">
+          <div class="about_image_container">
+            <img src="images/about-bcg.jpeg" alt="" class="about_img" />
+          </div>
+        </article>
+        <!-- about info -->
+        <article class="about_info">
+          <div class="section_title">
+            <h3>About our</h3>
+            <h2>Tea Station</h2>
+          </div>
+          <p class="about_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quod.
+          </p>
+          <p class="about_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quod.
+          </p>
+          <a href="about.html" class="btn">Learn more</a>
+        </article>
+      </div>
+    </section>
+    <!-- End of About -->
+    <!-- Start of products -->
+    <section class="products">
+      <div class="section_center clearfix">
+        <article class="products_info">
+          <div class="section_title">
+            <h3>Check out</h3>
+            <h2>Our products</h2>
+          </div>
+          <p class="product_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quod.
+            ipsum dolor sit amet consectetur adipisicing elit. Quae, quod.
+          </p>
+          <p class="product_text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, quod.
+            ipsum dolor sit amet consectetur adipisicing elit. Quae, quod.
+          </p>
+          <a href="about.html" class="btn">Learn more</a>
+        </article>
+        <article class="products_images clearfix">
+          <!-- product one -->
+          <div class="product">
+            <img src="images/product-1.jpeg" alt="" class="product_img" />
+            <h4 class="product_ginger">Ginger Tea</h4>
+            <h4 class="product_price">£3.99</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              quis adipisci quo.
+            </p>
+          </div>
+          <!-- End of product one -->
+          <!-- product two -->
+          <div class="product">
+            <img src="images/product-2.jpeg" alt="" class="product_img" />
+            <h4 class="product_ginger">Lemon Tea</h4>
+            <h4 class="product_price">£2.99</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              quis adipisci quo.
+            </p>
+          </div>
+          <!-- End of product two -->
+          <!-- product three -->
+          <div class="product">
+            <img src="images/product-3.jpeg" alt="" class="product_img" />
+            <h4 class="product_ginger">Indian Tea</h4>
+            <h4 class="product_price">£4.99</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque
+              quis adipisci quo.
+            </p>
+          </div>
+          <!-- End of product three -->
+        </article>
+      </div>
+    </section>
+    <!-- End of Products -->
+    <!-- Start of Services -->
+    <section class="services">
+      <div class="section_title services_title">
+        <h3>Explore</h3>
+        <h2>Our services</h2>
+      </div>
+      <div class="section_center clearfix">
+        <!-- card1 -->
+        <article class="services_card">
+          <div class="service_image_container">
+            <img src="images/product-1.jpeg" alt="" class="service_image" />
+            <span class="service_icon">
+              <i class="fas fa-mortar-pestle fa-fw"></i>
+            </span>
+          </div>
+          <div class="service_info">
+            <h4>custom recipes</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              labore sed deserunt, blanditiis error doloremque.
+            </p>
+            <a href="products.html" class="btn service_btn">read more</a>
+          </div>
+        </article>
+        <!-- End of card1 -->
+        <!-- card2 -->
+        <article class="services_card">
+          <div class="service_image_container">
+            <img src="images/product-2.jpeg" alt="" class="service_image" />
+            <span class="service_icon">
+              <i class="fas fa-home fa-fw"></i>
+            </span>
+          </div>
+          <div class="service_info">
+            <h4>home delivery</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              labore sed deserunt, blanditiis error doloremque.
+            </p>
+            <a href="products.html" class="btn service_btn">read more</a>
+          </div>
+        </article>
+        <!-- End of card2 -->
+        <!-- card3 -->
+        <article class="services_card">
+          <div class="service_image_container">
+            <img src="images/product-3.jpeg" alt="" class="service_image" />
+            <span class="service_icon">
+              <i class="fas fa-mug-hot fa-fw"></i>
+            </span>
+          </div>
+          <div class="service_info">
+            <h4>tea aging</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione
+              labore sed deserunt, blanditiis error doloremque.
+            </p>
+            <a href="products.html" class="btn service_btn">read more</a>
+          </div>
+        </article>
+        <!-- End of card3 -->
+      </div>
+    </section>
+    <!-- End of Services -->
+    <!-- contact -->
+    <section class="contact">
+      <div class="section_center clearfix">
+        <!-- contact info -->
+        <article class="contact-info">
+          <!-- contact item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-location-arrow"></i>
+              </span>
+              address
+            </h4>
+            <h4 class="contact-text">
+              523 N Fairfax Ave <br />
+              Los Angeles, CA 90048
+            </h4>
+          </div>
+          <!-- end of contact item -->
+          <!-- contact item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </span>
+              email
+            </h4>
+            <h4 class="contact-text">email@email.com</h4>
+          </div>
+          <!-- end of contact item -->
+          <!-- contact item -->
+          <div class="contact-item">
+            <h4 class="contact-title">
+              <span class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </span>
+              telephone
+            </h4>
+            <h4 class="contact-text">+ 123 456 789</h4>
+          </div>
+          <!-- end of contact item -->
+        </article>
+        <!-- contact form -->
+        <article class="contact-form">
+          <h3>contact us</h3>
+          <form>
+            <div class="form-group">
+              <!-- inputs -->
+              <input
+                type="text"
+                placeholder="name"
+                class="form-control"
+                name="name"
+              />
+              <input
+                type="email"
+                placeholder="email"
+                class="form-control"
+                name="email"
+              />
+              <textarea
+                name="message"
+                placeholder="message"
+                class="form-control"
+                rows="5"
+              ></textarea>
+            </div>
+            <!-- button -->
+            <button type="submit" class="submit-btn btn">submit here</button>
+          </form>
+        </article>
+      </div>
+    </section>
+    <!-- end of contact -->
+
+    <!--  footer -->
+
+    <section class="footer">
+      <div class="section_center clearfix">
+        <div class="social_icons">
+          <a href="" class="social_icon">
+            <i class="fab fa-facebook" aria-hidden="true"></i>
+          </a>
+          <a href="" class="social_icon">
+            <i class="fab fa-twitter" aria-hidden="true"></i>
+          </a>
+          <a href="" class="social_icon">
+            <i class="fab fa-instagram" aria-hidden="true"></i>
+          </a>
+        </div>
+        <h4 class="footer_text">
+          &copy;<span>2020 </span><span class="company"> Tea Station</span> All
+          rights reserved
+        </h4>
+      </div>
+    </section>
+    <!-- end of footer -->
     <script src="app.js"></script>
   </body>
 </html>

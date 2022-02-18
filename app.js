@@ -1,6 +1,6 @@
-const navBtn = document.getElementById("nav-btn");
-const navbar = document.getElementById("navbar");
-const navClose = document.getElementById("nav-close");
+const navBtn = document.getElementById("nav_btn");
+const navbar = document.getElementById("nav_bar");
+const navClose = document.getElementById("nav_close");
 
 navBtn.addEventListener("click", () => {
   navbar.classList.add("showNav");
